@@ -4,11 +4,7 @@ import Info from "../components/Info";
 import SectionTitles from "../components/SectionTitles";
 import Card from "../components/Card";
 import Button from '../components/Button';
-
-
-
-// Data to replace
-const contactIntro = <p> Feel free to Contact me by submitting the form below and I will get back to you as soon as possible. </p>
+import portfolioData from '../portfolioData';
 
 function Contact(){
     const [name, setName] = useState('')
@@ -31,7 +27,7 @@ function Contact(){
             <div id="contact-anchor" className="anchor"></div>
             <section id="contact">
                 <SectionTitles>CONTACT</SectionTitles>
-                    <Info className='flex justify-center text-center ml-10 mr-10 md:text-xl md:ml-56 md:mr-56'>{contactIntro}</Info> 
+                    <Info className='flex justify-center text-center ml-10 mr-10 md:text-center md:text-xl md:ml-56 md:mr-56'>{portfolioData.contactPara}</Info> 
                     <Card className='bg-white rounded-lg md:translate-x-full dark:bg-slate-500 pl-16'>
                         <h1 className='tracking-widest text-lg p-2 font-bold dark:text-indigo-500'>NAME</h1>
                         <input

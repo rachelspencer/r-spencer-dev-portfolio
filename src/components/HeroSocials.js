@@ -1,6 +1,7 @@
 import classNames from "classnames"
 import Anchor from "./Panel"
 import { FaTwitter, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
+import portfolioData from "../portfolioData";
 
 function HeroSocials({
     children,
@@ -9,9 +10,9 @@ function HeroSocials({
 }) {
     const heroClassNames = classNames(
         //Base Styling
-        'drop-shadow-lg tracking-widest',
+        'drop-shadow-lg tracking-widest text-yellow-900',
         //Active Modes
-        'hover:text-amber-400',
+        'hover:text-orange-400',
         //Dark Mode
         'dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500',
         //Accounts for customization
@@ -19,10 +20,10 @@ function HeroSocials({
     )
 
     const hyperlink = {
-        linkedin:"https://www.linkedin.com/company/ada-lovelace-institute/?originalSubdomain=uk",
-        github: "https://gist.github.com/Jen-pac/9951c97cbd17bdece65525bef1a53a2f",
-        twitter:"https://twitter.com/AdaLovelaceInst?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-        youtube: "https://www.youtube.com/watch?v=J7ITqnEmf-g"
+        linkedin:"https://www.linkedin.com/in/rachel-spencer-87a539246/",
+        github: "https://github.com/rachelspencer",
+        twitter:"https://twitter.com/coderdownunder",
+        youtube: "https://www.youtube.com/channel/UC5vO-FJn0lexGMr2iSf1Kww"
     }
 
     const hyperlinkToRender = (hyperlink) => {

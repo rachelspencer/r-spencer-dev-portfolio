@@ -16,7 +16,7 @@ function SectionTitles({
         //Base Styling
         'h-1 w-8 mx-auto my-4 rounded text-center',
         //Gradient Effect
-        'bg-gradient-to-r from-amber-300 to-yellow-300"',
+        'bg-gradient-to-r from-red-400 to-orange-400"',
         className
         //Accounts for customization
     )
