@@ -38,9 +38,9 @@ function Intro(){
     return (
         <Panel id='intro' className="bg-[url('https://img.freepik.com/free-vector/elegant-white-wallpaper-with-golden-details_23-2149095007.jpg?w=2000')]  dark:bg-[url('https://i.etsystatic.com/42026790/r/il/e29cf9/4842908763/il_fullxfull.4842908763_m1b3.jpg')] bg-no-repeat bg-cover bg-center bg-fixed ">
           <div id="intro-anchor" className="anchor"></div>
-          <h1 className="text-3xl md:text-5xl font-bold text-center pt-56 tracking-widest dark:text-indigo-400">HEY, I'M RACHEL SPENCER</h1>
+          <h1 className="text-3xl md:text-5xl font-bold text-center pt-56 xl:pt-80 tracking-widest dark:text-indigo-400">HEY, I'M RACHEL SPENCER</h1>
           <div className="flex justify-center text-center flex-col pb-36">
-            <h2 className='text-lg md:text-sml p-8 md:pl-36 md:pr-36 lg:ml-90 lg:mr-90 xl:ml-56 xl:mr-56 dark:text-slate-400'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product. </h2>
+            <h2 className='text-lg md:text-sml p-8 md:pl-36 md:pr-36 xl:pl-96 xl:pr-96 dark:text-slate-400'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product. </h2>
             <div className='-translate-y-34'>
               <Link 
                 to='projects-anchor' 
