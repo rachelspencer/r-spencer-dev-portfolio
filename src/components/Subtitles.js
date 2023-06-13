@@ -6,7 +6,7 @@ function Subtitles({
     ...rest}){
     const subTitleClassNames = classNames(
             //Base Styling
-            'text-xl font-bold text-left tracking-wide ',
+            'text-xl font-bold text-yellow-900 text-left tracking-wide ',
             //Media Queries
             'md:text-2xl  md:m-2 md:pt-4',
             //Dark Mode

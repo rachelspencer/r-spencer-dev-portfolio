@@ -1,9 +1,10 @@
 import classNames from "classnames"
-import Anchor from "./Panel"
+import Anchor from "./Anchor"
 import { FaTwitter, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
 import portfolioData from "../portfolioData";
 
 function HeroSocials({
+    href,
     children,
     className,
     ...rest
@@ -12,7 +13,7 @@ function HeroSocials({
         //Base Styling
         'drop-shadow-lg tracking-widest text-yellow-900',
         //Active Modes
-        'hover:text-orange-400',
+        'hover:text-orange-400 active:text-red-400',
         //Dark Mode
         'dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500',
         //Accounts for customization

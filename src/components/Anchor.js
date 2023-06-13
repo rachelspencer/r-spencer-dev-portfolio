@@ -10,7 +10,7 @@ function Anchor ({
         //Base Styling
         'text-amber-300 underline font-bold',
         //Hoever, Active, and Focus Styling
-        'hover:underline-offset-4 focus:ring focus:ring-amber-300',
+        'hover: focus:text-orange-400',
         // Dark Mode Styling
         'dark:text-indigo-500 dark:focus:ring-indigo-500',
         //Accounts for customization

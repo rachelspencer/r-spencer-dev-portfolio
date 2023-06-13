@@ -16,7 +16,7 @@ function Header ({ className }){
     const headerLogo = "https://s24193.pcdn.co/wp-content/uploads/2016/07/entity-women-that-did-ada-lovelace-1320x720.jpg"
 
     const navLinkStylingClassNames = classNames(
-        "flex justify-end whitespace-nowrap py-5 pr-5 font-bold text-yellow-900 text-sm md:p-5 dark:text-indigo-500 dark:bg-slate-900 hover:cursor-pointer hover:text-orange-400 dark:hover:text-cyan-500",
+        "flex justify-end whitespace-nowrap py-5 pr-5 font-bold text-yellow-900 text-sm active:text-red-400 md:p-5 dark:text-indigo-500 dark:bg-slate-900 hover:cursor-pointer hover:text-orange-400 dark:hover:text-cyan-500",
         className
     );
 

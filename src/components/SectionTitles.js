@@ -6,7 +6,7 @@ function SectionTitles({
     ...rest}){
     const titleClassNames = classNames(
             //Base Styling
-            'text-3xl font-bold text-center pt-4 tracking-widest',
+            'text-3xl font-bold text-yellow-900 text-center pt-4 tracking-widest',
             //Dark Mode
             'dark:text-indigo-500',
             //Accounts for customization

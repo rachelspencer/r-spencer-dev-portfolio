@@ -6,7 +6,7 @@ function Info({
     ...rest }){
     const paragraphClassNames = classNames(
             // Base Styling
-            'text-base my-4 text-justify',
+            'text-base my-4 text-justify text-yellow-900',
             //Media Queries
              'md:text-1xl md:p-2', 
              //Dark Mode
