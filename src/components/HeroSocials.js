@@ -1,7 +1,6 @@
 import classNames from "classnames"
 import Anchor from "./Anchor"
 import { FaTwitter, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
-import portfolioData from "../portfolioData";
 
 function HeroSocials({
     href,

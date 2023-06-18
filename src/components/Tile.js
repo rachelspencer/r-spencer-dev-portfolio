@@ -1,4 +1,3 @@
-import classNames from "classnames";
 
 function Tile({ skill }){
    
