@@ -10,7 +10,7 @@
     youtube:"",
     //for AboutMe.js
     aboutPara: "Here you will find more information about me and my current skills mostly in terms of programming and technology.",
-    paraOne: "My interest in Front End Development started in 2021. Free courses on Codecademy eventuated to my enrollment in Devmountains part time Web Development bootcamp (Aug 2021 - May 2023). It's fair to say I caught the bug, no pun intended.",
+    paraOne: "My interest in Front End Development started in 2022. Free courses on Codecademy eventuated to my enrollment in Devmountains part time Web Development bootcamp (Aug 2022 - May 2023). It's fair to say I caught the bug, no pun intended.",
     paraTwo: "I enjoy the process of designing and bringing wireframes to life using styling sheet languages like CSS and program languages like Javascript.",
     paraThree: "Since my graduation I have continued to build on my skills by making applications in my spare time. I hope to gain the necessary skills that make a Junior Software engineer valuable in a team environment.",
     //for Contact.js
