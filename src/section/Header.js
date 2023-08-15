@@ -4,6 +4,7 @@ import { HiMenu, HiX } from "react-icons/hi";
 import { useState } from "react";
 import Panel from "../components/Panel";
 import portfolioData from "../portfolioData";
+import Headshot_Rachel_spencer from "../images/Headshot_Rachel_Spencer.jpg";
 
 
 function Header ({ className }){
@@ -13,8 +14,7 @@ function Header ({ className }){
         setOpen(!open);
 
     };
-    const headerLogo = "https://s24193.pcdn.co/wp-content/uploads/2016/07/entity-women-that-did-ada-lovelace-1320x720.jpg"
-
+    const headerLogo = Headshot_Rachel_spencer
     const navLinkStylingClassNames = classNames(
         "flex justify-end whitespace-nowrap py-5 pr-5 font-bold text-yellow-900 text-sm active:text-red-400 md:p-5 dark:text-indigo-500 dark:bg-slate-900 hover:cursor-pointer hover:text-orange-400 dark:hover:text-cyan-500",
         className
