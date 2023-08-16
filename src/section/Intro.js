@@ -37,7 +37,7 @@ function Intro(){
   };
 
     return (
-      <Panel id='intro' className="bg-[url('./images/lightModeHero.jpg')]  dark:bg-[url('https://i.etsystatic.com/42026790/r/il/e29cf9/4842908763/il_fullxfull.4842908763_m1b3.jpg')] bg-no-repeat bg-cover bg-center bg-fixed ">
+      <Panel id='intro' className="bg-[url('./images/lightModeBg.png')]  dark:bg-[url('https://i.etsystatic.com/42026790/r/il/e29cf9/4842908763/il_fullxfull.4842908763_m1b3.jpg')] bg-no-repeat bg-cover bg-center bg-fixed ">
         <div id="intro-anchor" className="anchor"></div>
         <h1 className="text-yellow-900 text-3xl mx-10 font-bold text-center pt-56 md:text-5xl xl:pt-80 tracking-widest dark:text-indigo-400">HEY, I'M {portfolioData.name.toUpperCase()}</h1>
         <div className="flex justify-center text-center flex-col pb-36">
