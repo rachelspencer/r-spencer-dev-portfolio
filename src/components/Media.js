@@ -22,11 +22,11 @@ function Media({
     if (isVideo) {
         return(
         <div className="flex justify-center p-4">
-            <video className={finalMediaClassNames} controls>
+            <video className={finalMediaClassNames} controls autoPlay muted>
                 <source src={src} type="video/mp4" />
                 <source src={src} type="video/webm" />
                 <source src={src} type="video/ogg" />
-                <source src={src} type="video/MOV" />
+                <source src={src} type="video/quicktime"/>
                 Your browser does not support the video tag.
             </video>
         </div>
