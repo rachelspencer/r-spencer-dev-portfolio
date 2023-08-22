@@ -14,7 +14,7 @@ function HeroSocials({
         //Active Modes
         'hover:text-orange-400 active:text-red-400',
         //Dark Mode
-        'dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500',
+        'dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500 dark:border-none',
         //Accounts for customization
         className
     )

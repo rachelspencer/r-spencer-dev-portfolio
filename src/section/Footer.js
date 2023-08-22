@@ -27,10 +27,10 @@ function Footer () {
                     <div className="w-11/12 ml-6 md:w-4/12 md:-ml-0 h-auto m-2 p-8 md:order-last p-2 text-white justify-end">
                         <h1 className="text-lg py-6 text-rose-600 font-bold dark:text-indigo-500 md:flex md:justify-end md:mr-8">SOCIAL</h1>
                         <div className="flex md:justify-end">
-                                <Anchor className="pr-6 focus:ring-0 drop-shadow-lg tracking-widest hover:text-amber-400 dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500" href={hyperlinkToRender(hyperlink)[0]}><FaLinkedin size={24}/></Anchor>
-                                <Anchor className="pr-6 focus:ring-0 drop-shadow-lg tracking-widest hover:text-amber-400 dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500" href={hyperlinkToRender(hyperlink)[1]}><FaGithub size={24}/></Anchor>
-                                <Anchor className="pr-6 focus:ring-0 drop-shadow-lg tracking-widest hover:text-amber-400 dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500" href={hyperlinkToRender(hyperlink)[2]}><FaTwitter size={24}/></Anchor>
-                                <Anchor className="pr-6 focus:ring-0 drop-shadow-lg tracking-widest hover:text-amber-400 dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500" href={hyperlinkToRender(hyperlink)[3]}><FaYoutube size={24}/></Anchor>
+                                <Anchor className="pr-6 focus:ring-0 drop-shadow-lg tracking-widest hover:text-amber-400 dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500 dark:border-none" href={hyperlinkToRender(hyperlink)[0]}><FaLinkedin size={24}/></Anchor>
+                                <Anchor className="pr-6 focus:ring-0 drop-shadow-lg tracking-widest hover:text-amber-400 dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500 dark:border-none" href={hyperlinkToRender(hyperlink)[1]}><FaGithub size={24}/></Anchor>
+                                <Anchor className="pr-6 focus:ring-0 drop-shadow-lg tracking-widest hover:text-amber-400 dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500 dark:border-none" href={hyperlinkToRender(hyperlink)[2]}><FaTwitter size={24}/></Anchor>
+                                <Anchor className="pr-6 focus:ring-0 drop-shadow-lg tracking-widest hover:text-amber-400 dark:hover:text-cyan-500 dark:active:cyan-500 dark:text-indigo-500 dark:border-none" href={hyperlinkToRender(hyperlink)[3]}><FaYoutube size={24}/></Anchor>
                         </div>
                     </div>
                     <div className="text-rose-600 p-2 w-11/12 ml-6 md:w-4/12 md:-ml-0 h-auto m-2 p-8">
