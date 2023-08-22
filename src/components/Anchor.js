@@ -12,7 +12,7 @@ function Anchor ({
         //Hoever, Active, and Focus Styling
         'hover:underline-offset-4 hover:text-orange-400',
         // Dark Mode Styling
-        'dark:text-indigo-500 dark:focus:ring-indigo-500 dark:border dark:border-cyan-500',
+        'dark:text-indigo-500 dark:focus:ring-indigo-500 dark:border-none',
         //Accounts for customization
         className
     );
