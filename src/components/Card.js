@@ -8,7 +8,7 @@ function Card ({
 
     const containerClassNames = classNames(
         //Base Styling
-        'w-11/12 ml-6 h-auto m-2 p-8 rounded-md',
+        'w-11/12 h-auto m-2 p-8 rounded-md',
         // Media Queries
         'md:w-4/12 md:-ml-0',
         //Dark Mode
