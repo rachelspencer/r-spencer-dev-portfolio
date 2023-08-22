@@ -29,19 +29,19 @@ function Contact(){
                     <Info className='flex justify-center text-center ml-10 mr-10 md:text-center md:text-xl md:ml-56 md:mr-56'>{portfolioData.contactPara}</Info> 
                     <Card className='bg-white rounded-lg md:translate-x-full dark:bg-slate-500 pl-16'>
                         <form ref={form} onSubmit={sendEmail}>
-                        <label className='tracking-widest text-lg p-2 font-bold dark:text-indigo-500'>NAME</label>
+                        <label className='tracking-widest text-yellow-900 text-lg p-2 font-bold dark:text-indigo-500'>NAME</label>
                         <input
                         type="text"
                         name="user_name"
                         placeholder="Enter Your Name"
                         className='bg-slate-100 w-11/12 h-12 rounded-lg p-4 tracking-widest hover:ring hover:ring-rose-200 focus:outline-none focus:ring focus:ring-rose-600 dark:bg-black dark:focus:ring-indigo-500 dark:text-slate-400' />
-                        <label className='tracking-widest text-lg p-2 font-bold dark:text-indigo-500'>EMAIL</label>
+                        <label className='tracking-widest text-yellow-900 text-lg p-2 font-bold dark:text-indigo-500'>EMAIL</label>
                         <input
                         type="email"
                         name="user_email"
                         placeholder="Enter Your Email"
                         className='bg-slate-100 w-11/12 h-12 rounded-lg p-4 tracking-widest hover:ring hover:ring-rose-200  focus:outline-none focus:ring focus:ring-rose-600 dark:bg-black dark:focus:ring-indigo-500 dark:text-slate-400' />
-                        <label className='tracking-widest text-lg p-2 font-bold dark:text-indigo-500'>MESSAGE</label>
+                        <label className='tracking-widest text-yellow-900 text-lg p-2 font-bold dark:text-indigo-500'>MESSAGE</label>
                         <textarea
                         name="message"
                         placeholder="Enter Your Message"
