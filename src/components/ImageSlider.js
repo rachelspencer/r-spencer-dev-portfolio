@@ -11,7 +11,7 @@ function ImageSlider(){
         {
             image: polly89,
             name:"Christina Woodhams",
-            quote:"I had the pleasure of collaborating with Rachel on a project. We studied together at DevMountain, and her passion and commitment to the program were evident from day one. She caught on to new technologies quickly and was always incredibly insightful in class. That, along with her attention to detail, and artistic designs, pushed me to reach out and collaborate with her on a project. And I wasn't disappointed! She's extremely motivated and always stays on task. We completed our project in just a few weeks, and I hope to collaborate with her on many more projects.",
+            quote:"I had the pleasure of collaborating with Rachel on a project. We studied together at Devmountain, and her passion and commitment to the program were evident from day one. She caught on to new technologies quickly and was always incredibly insightful in class. That, along with her attention to detail, and artistic designs, pushed me to reach out and collaborate with her on a project. And I wasn't disappointed! She's extremely motivated and always stays on task. We completed our project in just a few weeks, and I hope to collaborate with her on many more projects.",
         },
         {
             image: BenDoggett,
