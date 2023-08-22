@@ -6,6 +6,7 @@ import Anchor from "../components/Anchor";
 import Media from "../components/Media";
 import SectionTitles from "../components/SectionTitles";
 import Subtitles from "../components/Subtitles";
+import Portfolio_screenshot from "../images/Portfolio_screenshot.png"
 
 
 function Projects(){
@@ -27,6 +28,11 @@ function Projects(){
     const paragraph7 = <p>Moreover, this project introduced me to the realm of crafting login systems and authentication mechanisms—an invaluable addition to my skill set.</p>
     const hyperlinkCrnsAppFigmas ='https://www.figma.com/file/tICh7zBARsNvmG949duas6/crns23?type=design&node-id=0%3A1&mode=design&t=NeCvXKTEj0cTrca2-1'
     const hyperlinkBookNotesAppFigmas = "https://www.figma.com/file/NVrt7PZfNSCjxtcIV83otW/Untitled?type=design&mode=design&t=NeCvXKTEj0cTrca2-1"
+    //Project 3
+    const paragraph8 =<p>Upon completing my journey at Devmountain, I joined forces with fellow graduate Christina Woodhams to embark on our first collaborative project. Our previous projects had involved servers, but this time, we aimed to craft a serverless application. This choice allowed us to concentrate on refining the front-end developer skills we've cultivated. Additionally, we took the opportunity to experiment with Tailwind CSS as an alternative to traditional CSS. We decided on hosting our portfolios on the Netlify platform.</p>
+    const paragraph9 =<p>The experience of collaborating with Christina on this venture was truly fulfilling, allowing me to thrive within a collaborative environment. Our collaboration has ignited a multitude of creative ideas for future projects, and we're excited to bring them to life in the coming months.</p>
+    const paragraph10 =<p></p>
+    const paragraph11 =<p></p>
     return (
         <Panel className='relative bg-white dark:bg-black'>
             <div id="projects-anchor" className="anchor"></div>
@@ -55,6 +61,20 @@ function Projects(){
                         <Info>{paragraph6}</Info>
                         <Info>{paragraph7}</Info>
                         <Anchor href={hyperlinkBookNotesAppFigmas}>View Wireframes</Anchor>
+                        {/* <Button onClick={handleClick}> VIEW PROJECT</Button> */}
+                    </Card>
+                </div>
+                <div className='flex flex-col md:flex-row justify-center'>
+                    <Card>
+                        <img style={{ width: "100%", height: "auto" }} alt='portfolio intro image' src={Portfolio_screenshot}/>
+                    </Card>
+                    <Card className='justify-start'>
+                        <Subtitles>My Dev Portfolio</Subtitles>
+                        <Info>{paragraph8}</Info>
+                        <Info>{paragraph9}</Info>
+                        <Info>{paragraph10}</Info>
+                        <Info>{paragraph11}</Info>
+                        {/* <Anchor href={hyperlinkBookNotesAppFigmas}>View Wireframes</Anchor> */}
                         {/* <Button onClick={handleClick}> VIEW PROJECT</Button> */}
                     </Card>
                 </div>
