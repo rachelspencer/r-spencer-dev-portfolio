@@ -34,18 +34,18 @@ function Contact(){
                         type="text"
                         name="user_name"
                         placeholder="Enter Your Name"
-                        className='bg-slate-100 w-11/12 h-12 rounded-lg p-4 tracking-widest hover:ring hover:ring-amber-100 focus:outline-none focus:ring focus:ring-amber-300 dark:bg-black dark:focus:ring-indigo-500 dark:text-slate-400' />
+                        className='bg-slate-100 w-11/12 h-12 rounded-lg p-4 tracking-widest hover:ring hover:ring-rose-200 focus:outline-none focus:ring focus:ring-rose-600 dark:bg-black dark:focus:ring-indigo-500 dark:text-slate-400' />
                         <label className='tracking-widest text-lg p-2 font-bold dark:text-indigo-500'>EMAIL</label>
                         <input
                         type="email"
                         name="user_email"
                         placeholder="Enter Your Email"
-                        className='bg-slate-100 w-11/12 h-12 rounded-lg p-4 tracking-widest hover:ring hover:ring-amber-100 focus:outline-none focus:ring focus:ring-amber-300 dark:bg-black dark:focus:ring-indigo-500 dark:text-slate-400' />
+                        className='bg-slate-100 w-11/12 h-12 rounded-lg p-4 tracking-widest hover:ring hover:ring-rose-200  focus:outline-none focus:ring focus:ring-rose-600 dark:bg-black dark:focus:ring-indigo-500 dark:text-slate-400' />
                         <label className='tracking-widest text-lg p-2 font-bold dark:text-indigo-500'>MESSAGE</label>
                         <textarea
                         name="message"
                         placeholder="Enter Your Message"
-                        className='block p-2.5 bg-slate-100 w-11/12 h-56 rounded-lg p-4 tracking-widest hover:ring hover:ring-amber-100 focus:outline-none focus:ring focus:ring-amber-300 dark:bg-black dark:focus:ring-indigo-500 dark:text-slate-400' />
+                        className='block p-2.5 bg-slate-100 w-11/12 h-56 rounded-lg p-4 tracking-widest hover:ring hover:ring-rose-200 focus:outline-none focus:ring focus:ring-rose-600 dark:bg-black dark:focus:ring-indigo-500 dark:text-slate-400' />
                         <Button type="submit">SUBMIT</Button>
                         </form>
                     </Card>
