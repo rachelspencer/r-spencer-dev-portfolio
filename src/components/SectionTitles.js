@@ -14,9 +14,11 @@ function SectionTitles({
     )
     const lineClassNames = classNames(
         //Base Styling
-        'h-1 w-8 mx-auto my-4 rounded text-center',
+        'h-1 w-20 mx-auto my-4 rounded text-center',
         //Gradient Effect
-        'bg-gradient-to-r from-red-400 to-orange-400"',
+        'bg-gradient-to-r from-rose-600 to-rose-200',
+        //Dark Mode
+        'dark:bg-gradient-to-r dark:from-indigo-500 dark:to-indigo-100',
         className
         //Accounts for customization
     )
