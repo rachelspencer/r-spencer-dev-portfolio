@@ -9,7 +9,7 @@ function Media({
 }){
     const finalMediaClassNames = classNames(
         //Base Styling
-        'w-11/12 max-w-xl rounded-lg border border-8 border-red-200 drop-shadow-lg',
+        'w-11/12 max-w-xl rounded-lg drop-shadow-lg',
         //Media Queries
          'md:mt-16',
         //Dark Mode  
@@ -21,7 +21,7 @@ function Media({
     
     if (isVideo) {
         return(
-        <div className="flex justify-center p-4">
+        <div >
             <video className={finalMediaClassNames} controls autoPlay muted>
                 <source src={src} type="video/mp4" />
                 <source src={src} type="video/webm" />

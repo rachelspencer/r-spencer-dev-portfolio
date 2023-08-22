@@ -8,11 +8,11 @@ function Anchor ({
 }){
     const anchorClassNames = classNames(
         //Base Styling
-        'text-amber-300 underline font-bold',
+        'text-rose-600 underline font-bold m-l:30',
         //Hoever, Active, and Focus Styling
-        'hover:underline-offset-4 focus:ring focus:ring-amber-300',
+        'hover:underline-offset-4 hover:text-orange-400',
         // Dark Mode Styling
-        'dark:text-indigo-500 dark:focus:ring-indigo-500',
+        'dark:text-indigo-500 dark:focus:ring-indigo-500 dark:border dark:border-cyan-500',
         //Accounts for customization
         className
     );

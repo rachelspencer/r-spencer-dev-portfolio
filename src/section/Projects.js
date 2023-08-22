@@ -1,6 +1,6 @@
 import Card from "../components/Card";
 import Panel from "../components/Panel";
-import Button from '../components/Button'
+// import Button from '../components/Button'
 import Info from "../components/Info";
 import Anchor from "../components/Anchor";
 import Media from "../components/Media";
@@ -9,8 +9,8 @@ import Subtitles from "../components/Subtitles";
 
 
 function Projects(){
-    const handleClick = ({ children, className, ...rest }) => {
-    };
+    // const handleClick = ({ children, className, ...rest }) => {
+    // };
     
     // Data to replace
     // const media = 'https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=1.00xw:0.753xh;0,0.153xh&resize=1200:*'
@@ -34,9 +34,9 @@ function Projects(){
                 <div>
                     <Info className='flex justify-center text-center mx-10 md:text-xl md:mx-46 xl:mx-56'>{intro1}</Info>
                     <div className='flex flex-col md:flex-row justify-center'>
-                        <Card>
+                        {/* <Card> */}
                             <Media alt='cairns app video' src={"assets/Rachel_Spencer_Crns_app.mp4"}/>
-                        </Card>
+                        {/* </Card> */}
                         <Card className='justify-start'>
                             <Subtitles>Travel Cairns Guide</Subtitles>
                             <Info>{paragraph1}</Info>
@@ -47,18 +47,16 @@ function Projects(){
                         </Card>
                 </div>
                 <div className='flex flex-col md:flex-row justify-center'>
-                    <Card>
-                        <Media alt='booknotes app video' src={"assets/Rachel_Spencer_Specs_Capstone.mp4"}/>
+                    <Media alt='booknotes app video' src={"assets/Rachel_Spencer_Specs_Capstone.mp4"}/>
+                    <Card className='justify-start'>
+                        <Subtitles>BookNotes</Subtitles>
+                        <Info>{paragraph4}</Info>
+                        <Info>{paragraph5}</Info>
+                        <Info>{paragraph6}</Info>
+                        <Info>{paragraph7}</Info>
+                        <Anchor href={hyperlinkBookNotesAppFigmas}>View Wireframes</Anchor>
+                        {/* <Button onClick={handleClick}> VIEW PROJECT</Button> */}
                     </Card>
-                        <Card className='justify-start'>
-                            <Subtitles>BookNotes</Subtitles>
-                            <Info>{paragraph4}</Info>
-                            <Info>{paragraph5}</Info>
-                            <Info>{paragraph6}</Info>
-                            <Info>{paragraph7}</Info>
-                            <Anchor href={hyperlinkBookNotesAppFigmas}>View Wireframes</Anchor>
-                            {/* <Button onClick={handleClick}> VIEW PROJECT</Button> */}
-                        </Card>
                 </div>
             </div>
         </Panel>
