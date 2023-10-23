@@ -10,10 +10,10 @@ function Footer () {
     const currentYear = new Date().getFullYear();
     
     const hyperlink = {
-        linkedin:"https://www.linkedin.com/company/ada-lovelace-institute/?originalSubdomain=uk",
-        github: "https://gist.github.com/Jen-pac/9951c97cbd17bdece65525bef1a53a2f",
-        twitter:"https://twitter.com/AdaLovelaceInst?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-        youtube: "https://www.youtube.com/channel/UCZyGz9tWkQqiiiE8GRKT5fA"
+        linkedin:"https://www.linkedin.com/in/rachel-spencer-87a539246/",
+        github: "https://github.com/rachelspencer",
+        twitter:"https://twitter.com/coderdownunder",
+        youtube: "https://www.youtube.com/channel/UC5vO-FJn0lexGMr2iSf1Kww"
     }
 
     const hyperlinkToRender = (hyperlink) => {
