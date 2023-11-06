@@ -40,7 +40,7 @@ function Projects(){
     const paragraph11 =<p>OAuth was used for User Authentication. MongoDB was implemented as a cloud based database and interacted with using the Node.js library Mongoose.  Deployment was managed using Vercel.</p>
     const paragraph12 =<p>So where from here? I plan to use the functionality of this application to build a clone that can be used to store study ‘post-it notes’ on the topics I am currently studying that revolve around frontend software engineering. This clone project will allow me to further practice not only using Next.js, but React, JavaScript, CSS and other mentioned products and libraries</p>
     const hyperlinkPromptGitHub = "https://github.com/rachelspencer/promptopia"
-
+    const hyperlinkPromptSite = "https://promptopia-nu-taupe.vercel.app/"
     return (
         <Panel className='relative bg-white dark:bg-black'>
             <div id="projects-anchor" className="anchor"></div>
@@ -101,6 +101,8 @@ function Projects(){
                         <Info>{paragraph11}</Info>
                         <Info>{paragraph12}</Info>
                          <Anchor href={hyperlinkPromptGitHub}>View GitHub</Anchor>
+                         <br />
+                         <Anchor href={hyperlinkPromptSite}>View Promptopia</Anchor>
                         {/* <Button onClick={handleClick}> VIEW PROJECT</Button> */}
                     </Card>
                 </div>
