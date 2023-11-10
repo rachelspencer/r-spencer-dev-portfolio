@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Panel from "../components/Panel";
 import Info from "../components/Info";
@@ -9,13 +9,15 @@ import portfolioData from "../portfolioData";
 
 function Contact(){
     const form = useRef();
-
+   
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_t55mz2c', 'template_37kdr46', form.current, 'gjqJBh7-YSrbGSMdb')
       .then((result) => {
           console.log(result.text);
+          form.current.reset();
+          alert("Contact form sent. Rachel will be in contact soon!")
       }, (error) => {
           console.log(error.text);
       });
