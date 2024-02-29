@@ -33,57 +33,30 @@ The app has four sections-About Me, Projetcts, Contact & Testimonials. It also c
 **Testimonials**
 <img width="1709" alt="Testimonials" src="https://github.com/rachelspencer/r-spencer-dev-portfolio/assets/111473039/f1cf7c20-a9b1-4297-a7be-8c5f4f4a6cc0">
 
-### `npm test`
+## Set up the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation Instructions
 
-### `npm run build`
+`npm` is distributed with Node.js, which means that when you download Node.js, you automatically get `npm` installed on your computer. You can install Node by [downloading it from the Node.js website](https://nodejs.org/en/) or using a Node version manager like [nvm](https://github.com/nvm-sh/nvm) on a macOS or Linux device or [nvm-windows](https://github.com/coreybutler/nvm-windows) on a Windows device.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can check if you have Node.js already installed by running `node -v` in your terminal. You will need it for this project to run, so don't skip this!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You will also need to make sure you have Visual Studios installed, check by running `code --version`. If you don't have it [download it from VS Code](https://code.visualstudio.com/download). If you use another development 
+environment, you will need to alter setp 7. to open the cloned repo. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone the project locally
 
-### `npm run eject`
+1. Click on the "Code" tab on this repo's "Code" page.
+2. Click the green "Code" button to reveal a "Clone" popup.
+3. The "HTTPS" tab should be automatically selected. If not, click "HTTPS."
+4. Click the copy button to copy the url of this repository to your clipboard.
+<img width="1571" alt="Clone the repo" src="https://github.com/rachelspencer/r-spencer-dev-portfolio/assets/111473039/fce86ed5-405d-4da4-9b18-fe0d4d6ce3a5">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Open a terminal window and navigate to the directory you'd like to save this repository.
+6. When you are in the right location, run `git clone` and paste the url copied from step 4.
+7. To open this repo locally, navigate inside of the repo directory and run `code .`. If you have Visual Studios installed, this
+   will open a new window with this code in it.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage Guidelines
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In the root of the directory you will need to run `npm i` in the terminal to install the projects dependencies. In the root you can also run `npm start` to run the server locally. 
