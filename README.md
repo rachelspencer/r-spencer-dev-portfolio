@@ -1,18 +1,37 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio was built to showcase my technical skills and web design skills.
 
-## Available Scripts
+## Technologies used
+- React
+- JavaScript (ES6)
+- Tailwind
+- CSS
+- Git
+- Github
+- Netlify
 
-In the project directory, you can run:
+### Overview
 
-### `npm start`
+The app has four sections-About Me, Projetcts, Contact & Testimonials. It also comes with a toggle to switch the color scheme between light and dark mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Home page Light Mode**
+<img width="1704" alt="Home lightmode" src="https://github.com/rachelspencer/r-spencer-dev-portfolio/assets/111473039/a15d7e4e-9214-4af9-8803-11e5fcfedea2">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Home page Dark Mode**
+<img width="1709" alt="Home darkmode" src="https://github.com/rachelspencer/r-spencer-dev-portfolio/assets/111473039/ded8db12-d840-42b3-9964-e02732fa8030">
+
+**About Me**
+<img width="1704" alt="About me" src="https://github.com/rachelspencer/r-spencer-dev-portfolio/assets/111473039/cbf6d76f-ca83-4550-8304-0d0f9172c618">
+
+**Projects**
+<img width="1704" alt="Projects" src="https://github.com/rachelspencer/r-spencer-dev-portfolio/assets/111473039/d25ca6e9-a39f-453e-b47d-99b84cd4f5a7">
+
+**Contact**
+<img width="1706" alt="Contact" src="https://github.com/rachelspencer/r-spencer-dev-portfolio/assets/111473039/61147b94-9f72-4ff2-9c99-5f9c695ef56f">
+
+**Testimonials**
+<img width="1709" alt="Testimonials" src="https://github.com/rachelspencer/r-spencer-dev-portfolio/assets/111473039/f1cf7c20-a9b1-4297-a7be-8c5f4f4a6cc0">
 
 ### `npm test`
 
