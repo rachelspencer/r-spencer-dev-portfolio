@@ -24,6 +24,7 @@ function Projects(){
     const paragraph3 = <p>The wireframes, meticulously designed using Figma, provided a solid blueprint for the application's user interface, ensuring a user-friendly experience.</p>
     const hyperlinkCrnsAppFigmas ='https://www.figma.com/file/tICh7zBARsNvmG949duas6/crns23?type=design&node-id=0%3A1&mode=design&t=NeCvXKTEj0cTrca2-1'
     const hyperlinkCrnsAppGitHub = "https://github.com/rachelspencer/rachel-spencer-capstone-2022"
+    const hyperlinkCrnsAppHosted = 'https://rachelkayspencer.com/'
     //Project 2
     const paragraph4 = <p>This app empowers users to effectively manage their personal book collection, offering a platform to track books on their bookshelf. As the app evolves, users will be able to seamlessly augment their collection with notes and memorable quotes.</p>
     const paragraph5 = <p>My journey with this project marked my inaugural experience with React and Bit.io, two technologies that enhanced the application's dynamism. I harnessed the capabilities of Node.js, Express, and SQL to create a robust foundation. The incorporation of CSS brought to life the wireframes that were created in Figma.</p>
@@ -60,6 +61,8 @@ function Projects(){
                             <Anchor href={hyperlinkCrnsAppFigmas}>View Wireframes</Anchor>
                             <br />
                             <Anchor href={hyperlinkCrnsAppGitHub}>View GitHub</Anchor>
+                            <br />
+                            <Anchor href={hyperlinkCrnsAppHosted}>View Hosted App</Anchor>
                             {/* <Button onClick={handleClick}> VIEW PROJECT</Button> */}
                         </Card>
                 </div>
