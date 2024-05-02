@@ -8,6 +8,7 @@ import SectionTitles from "../components/SectionTitles";
 import Subtitles from "../components/Subtitles";
 import Portfolio_screenshot from "../images/Portfolio_screenshot.png"
 import Promptopia_screenshot from "../images/Promptopia_screenshot.png"
+import SmartShop_screenshot from "../images/SmartShop_screenshot.png"
 
 
 function Projects(){
@@ -24,7 +25,8 @@ function Projects(){
     const paragraph3 = <p>The wireframes, meticulously designed using Figma, provided a solid blueprint for the application's user interface, ensuring a user-friendly experience.</p>
     const hyperlinkCrnsAppFigmas ='https://www.figma.com/file/tICh7zBARsNvmG949duas6/crns23?type=design&node-id=0%3A1&mode=design&t=NeCvXKTEj0cTrca2-1'
     const hyperlinkCrnsAppGitHub = "https://github.com/rachelspencer/rachel-spencer-capstone-2022"
-    const hyperlinkCrnsAppHosted = 'https://rachelkayspencer.com/'
+    const hyperlinkCrnsAppHosted = 'https://www.exploringcairns.com/'
+
     //Project 2
     const paragraph4 = <p>This app empowers users to effectively manage their personal book collection, offering a platform to track books on their bookshelf. As the app evolves, users will be able to seamlessly augment their collection with notes and memorable quotes.</p>
     const paragraph5 = <p>My journey with this project marked my inaugural experience with React and Bit.io, two technologies that enhanced the application's dynamism. I harnessed the capabilities of Node.js, Express, and SQL to create a robust foundation. The incorporation of CSS brought to life the wireframes that were created in Figma.</p>
@@ -33,8 +35,8 @@ function Projects(){
     const hyperlinkBookNotesAppFigmas = "https://www.figma.com/file/NVrt7PZfNSCjxtcIV83otW/Untitled?type=design&mode=design&t=NeCvXKTEj0cTrca2-1"
     const hyperlinkBookNotesGitHub = "https://github.com/rachelspencer/book-reading-list/tree/main"
     //Project 3
-    const paragraph8 =<p>Upon completing my journey at Devmountain, I joined forces with fellow graduate Christina Woodhams to embark on our first collaborative project. Our previous projects had involved servers, but this time, we aimed to craft a serverless application. This choice allowed us to concentrate on refining the front-end developer skills we've cultivated. Additionally, we took the opportunity to experiment with Tailwind CSS as an alternative to traditional CSS. We decided on hosting our portfolios on the Netlify platform.</p>
-    const paragraph9 =<p>The experience of collaborating with Christina on this venture was truly fulfilling, allowing me to thrive within a collaborative environment. Our collaboration has ignited a multitude of creative ideas for future projects, and we're excited to bring them to life in the coming months.</p>
+    const paragraph8 = <p>Upon completing my journey at Devmountain, I joined forces with fellow graduate Christina Woodhams to embark on our first collaborative project. Our previous projects had involved servers, but this time, we aimed to craft a serverless application. This choice allowed us to concentrate on refining the front-end developer skills we've cultivated. Additionally, we took the opportunity to experiment with Tailwind CSS as an alternative to traditional CSS. We decided on hosting our portfolios on the Netlify platform.</p>
+    const paragraph9 = <p>The experience of collaborating with Christina on this venture was truly fulfilling, allowing me to thrive within a collaborative environment. Our collaboration has ignited a multitude of creative ideas for future projects, and we're excited to bring them to life in the coming months.</p>
     const hyperlinkDevPortGitHub = "https://github.com/rachelspencer/r-spencer-dev-portfolio"
     //Project 4
     const paragraph10 =<p>Promptopia is a platform designed to streamline AI prompt usage by allowing you to easily copy and paste prompts into other applications, like ChatGPT. After finishing my Dev Portfolio project, I wanted to practice building another serverless application and therefore experimented using Next.js. A tutorial by JavaScript Mastery assisted me in executing this project and introduced me to some of Next.js features; such as file-system based Routing, Client-side and Server-side Rendering with Client and Server components and simplified data fetching with async/await for Server Components. </p>
@@ -42,16 +44,43 @@ function Projects(){
     const paragraph12 =<p>So where from here? I plan to use the functionality of this application to build a clone that can be used to store study ‘post-it notes’ on the topics I am currently studying that revolve around frontend software engineering. This clone project will allow me to further practice not only using Next.js, but React, JavaScript, CSS and other mentioned products and libraries</p>
     const hyperlinkPromptGitHub = "https://github.com/rachelspencer/promptopia"
     const hyperlinkPromptSite = "https://promptopia-nu-taupe.vercel.app/"
+    //project 5
+    const paragraph13 = <p>Smart Shop is a client-side JavaScript application that enables users to create shopping lists that are organized by purchase priority. React has been utilized for UI development and Firebase for both database and hosting.</p>
+    const paragraph14 = <p>The app was created in an agile working environment with three other developers, using Github to collaborate on code changes, manage version control, and coordinate tasks through issues and pull requests. Three mentors were readily available to offer advice and guidance, providing valuable insights and support throughout the development process, and ensuring the team stayed on track with project goals and best practices.</p>
+    const paragraph15 = <p>This project was completed through The Collab Lab, a foundation providing a structured environment for early-career developers to gain practical experience by working on real-world projects. Through collaboration and hands-on mentorship, participants develop technical and soft skills essential for success in the software industry. The Collab Lab serves as a valuable stepping stone for aspiring developers to launch their careers.</p>
+    const hyperlinkSmartShopFigmas = 'https://www.figma.com/file/nNDg490gnQ9mHi3h8QTxMW/Smart-Shopping-App?type=design&node-id=0-1&mode=design&t=ew8bGxr63RBNnnEI-0'
+    const hyperlinkSmartShopGitHub = 'https://github.com/the-collab-lab/tcl-73-smart-shopping-list'
+    const hyperlinkSmartShopSite = 'https://tcl-73-smart-shopping-list.web.app/'
+    const CollabLabSite = 'https://the-collab-lab.codes/'
     return (
         <Panel className='relative bg-white dark:bg-black'>
             <div id="projects-anchor" className="anchor"></div>
             <SectionTitles> MY PROJECTS </SectionTitles>
                 <div>
                     <Info className='flex justify-center text-center mx-10 md:text-xl md:mx-46 xl:mx-56'>{intro1}</Info>
+
+                    <div className='flex flex-col md:flex-row justify-center'>
+                        <Card>
+                            <img alt='smart shop app screenshot' src={SmartShop_screenshot}/>
+                        </Card>
+                        <Card className='justify-start'>
+                            <Subtitles>Smart Shop - Collab Lab</Subtitles>
+                            <Info>{paragraph13}</Info>
+                            <Info>{paragraph14}</Info>
+                            <Info>{paragraph15}</Info>
+                            <Anchor href={hyperlinkSmartShopFigmas}>View Wireframes</Anchor>
+                            <br />
+                            <Anchor href={hyperlinkSmartShopGitHub}>View GitHub</Anchor>
+                            <br />
+                            <Anchor href={hyperlinkSmartShopSite}>View Hosted App</Anchor>
+                            <br />
+                            <Anchor href={CollabLabSite}>The Collab Lab</Anchor>
+                        </Card>
+                    </div>
                     
                     <div className='flex flex-col md:flex-row justify-center'>
                         <Card>
-                            <Media alt='cairns app video' src={"assets/Rachel_Spencer_Crns_app.mp4"}/>
+                            <Media className="w-full h-auto rounded-lg shadow-lg" src={"assets/Rachel_Spencer_Crns_app.mp4"}/>
                         </Card>
                         <Card className='justify-start'>
                             <Subtitles>Cairns Travel Guide</Subtitles>

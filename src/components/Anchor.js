@@ -17,7 +17,7 @@ function Anchor ({
         className
     );
     return (
-        <a href={href} className={anchorClassNames}>{children} </a>
+        <a href={href} className={anchorClassNames} target="_blank">{children}</a>
     )
 }
 export default Anchor

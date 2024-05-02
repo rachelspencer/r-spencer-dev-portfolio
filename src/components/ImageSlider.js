@@ -3,6 +3,7 @@ import { HiChevronDoubleLeft, HiChevronDoubleRight } from "react-icons/hi";
 import polly89 from '../images/polly89.png';
 import BenDoggett from '../images/BenDoggett.jpeg';
 import Garrett from '../images/Garrett.png';
+import Paige from '../images/Paige.png';
 
 function ImageSlider(){
     const [currentTestimonialIndx, setCurrentTestimonialIndx] = useState(0);
@@ -22,6 +23,11 @@ function ImageSlider(){
             image: Garrett,
             name: "Garrett Y",
             quote:"I am thrilled to endorse Rachel, a standout student at Devmountain. Her unwavering commitment and exceptional work ethic set her apart. Rachel's enthusiasm for learning React, Node, Express, and SQL was evident as she consistently went the extra mile to grasp each concept fully. She's not only a diligent problem solver but also an innovative thinker, infusing creativity into her projects. Rachel's collaborative spirit, attention to detail, and proficiency within the web development stack make her an asset to any team. Without hesitation, I recommend Rachel for any web developer role—her remarkable dedication and skill set ensures her success in the field."
+        },
+        {
+            image: Paige,
+            name: "Paige C",
+            quote: "I had the pleasure of working with Rachel during the Collab Lab program. She proved to be an invaluable asset to our team in numerous ways. Rachel is proficient and detail-oriented when it comes to working with JavaScript, React, HTML, CSS, and Firebase. She was able to consistently provide answers to questions and innovative solutions to a variety of challenges.",
         }
     ]
 
