@@ -8,7 +8,7 @@ import SectionTitles from "../components/SectionTitles";
 import Subtitles from "../components/Subtitles";
 import Portfolio_screenshot from "../images/Portfolio_screenshot.png"
 import Promptopia_screenshot from "../images/Promptopia_screenshot.png"
-import SmartShop_screenshot from "../images/Portfolio_screenshot.png"
+import SmartShop_screenshot from "../images/SmartShop_screenshot.png"
 
 
 function Projects(){
@@ -46,7 +46,7 @@ function Projects(){
     //project 5
     const paragraph13 = <p>Smart Shop is a client-side JavaScript application that enables users to create shopping lists that are organized by purchase priority. React has been utilized for UI development and Firebase for both database and hosting.</p>
     const paragraph14 = <p>The app was created in an agile working environment with three other developers, using Github to collaborate on code changes, manage version control, and coordinate tasks through issues and pull requests. Three mentors were readily available to offer advice and guidance, providing valuable insights and support throughout the development process, and ensuring the team stayed on track with project goals and best practices.</p>
-    const paragraph15 = <p>This project was completed through The Collab Lab, which is a foundation that provides a structured environment for early-career developers to gain practical experience by working on real-world projects. By facilitating collaboration, mentorship, and hands-on learning, The Collab Lab empowers participants to develop both technical skills and soft skills essential for success in the software industry. Through its supportive community and focus on industry-standard tools and practices, The Collab Lab offers a valuable stepping stone for aspiring developers to launch their careers.</p>
+    const paragraph15 = <p>This project was completed through The Collab Lab, a foundation providing a structured environment for early-career developers to gain practical experience by working on real-world projects. Through collaboration and hands-on mentorship, participants develop technical and soft skills essential for success in the software industry. The Collab Lab serves as a valuable stepping stone for aspiring developers to launch their careers.</p>
     const hyperlinkSmartShopFigmas = 'https://www.figma.com/file/nNDg490gnQ9mHi3h8QTxMW/Smart-Shopping-App?type=design&node-id=0-1&mode=design&t=ew8bGxr63RBNnnEI-0'
     const hyperlinkSmartShopGitHub = 'https://github.com/the-collab-lab/tcl-73-smart-shopping-list'
     const hyperlinkSmartShopSite = 'https://tcl-73-smart-shopping-list.web.app/'
