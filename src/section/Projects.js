@@ -57,10 +57,29 @@ function Projects(){
             <SectionTitles> MY PROJECTS </SectionTitles>
                 <div>
                     <Info className='flex justify-center text-center mx-10 md:text-xl md:mx-46 xl:mx-56'>{intro1}</Info>
+
+                    <div className='flex flex-col md:flex-row justify-center'>
+                        <Card>
+                            <img alt='smart shop app screenshot' src={SmartShop_screenshot}/>
+                        </Card>
+                        <Card className='justify-start'>
+                            <Subtitles>Smart Shop - Collab Lab</Subtitles>
+                            <Info>{paragraph13}</Info>
+                            <Info>{paragraph14}</Info>
+                            <Info>{paragraph15}</Info>
+                            <Anchor href={hyperlinkSmartShopFigmas}>View Wireframes</Anchor>
+                            <br />
+                            <Anchor href={hyperlinkSmartShopGitHub}>View GitHub</Anchor>
+                            <br />
+                            <Anchor href={hyperlinkSmartShopSite}>View Hosted App</Anchor>
+                            <br />
+                            <Anchor href={CollabLabSite}>The Collab Lab</Anchor>
+                        </Card>
+                    </div>
                     
                     <div className='flex flex-col md:flex-row justify-center'>
                         <Card>
-                            <Media alt='cairns app video' src={"assets/Rachel_Spencer_Crns_app.mp4"}/>
+                            <Media className="w-full h-auto rounded-lg shadow-lg" src={"assets/Rachel_Spencer_Crns_app.mp4"}/>
                         </Card>
                         <Card className='justify-start'>
                             <Subtitles>Cairns Travel Guide</Subtitles>
