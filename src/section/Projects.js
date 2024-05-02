@@ -8,6 +8,7 @@ import SectionTitles from "../components/SectionTitles";
 import Subtitles from "../components/Subtitles";
 import Portfolio_screenshot from "../images/Portfolio_screenshot.png"
 import Promptopia_screenshot from "../images/Promptopia_screenshot.png"
+import SmartShop_screenshot from "../images/Portfolio_screenshot.png"
 
 
 function Projects(){
