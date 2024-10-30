@@ -8,7 +8,8 @@ import SectionTitles from "../components/SectionTitles";
 import Subtitles from "../components/Subtitles";
 import Portfolio_screenshot from "../images/Portfolio_screenshot.png"
 import Promptopia_screenshot from "../images/Promptopia_screenshot.png"
-import SmartShop_screenshot from "../images/SmartShop_screenshot.png"
+import ShopSmartThumbnail from "../images/ShopSmartThumbnail.png"
+import BeatrixHoneyThumbnail from "../images/BeatrixHoneyThumbnail.png"
 
 
 function Projects(){
@@ -48,10 +49,15 @@ function Projects(){
     const paragraph13 = <p>Smart Shop is a client-side JavaScript application that enables users to create shopping lists that are organized by purchase priority. React has been utilized for UI development and Firebase for both database and hosting.</p>
     const paragraph14 = <p>The app was created in an agile working environment with three other developers, using Github to collaborate on code changes, manage version control, and coordinate tasks through issues and pull requests. Three mentors were readily available to offer advice and guidance, providing valuable insights and support throughout the development process, and ensuring the team stayed on track with project goals and best practices.</p>
     const paragraph15 = <p>This project was completed through The Collab Lab, a foundation providing a structured environment for early-career developers to gain practical experience by working on real-world projects. Through collaboration and hands-on mentorship, participants develop technical and soft skills essential for success in the software industry. The Collab Lab serves as a valuable stepping stone for aspiring developers to launch their careers.</p>
+    const paragraph16 = <p>In my recent designs created with Figma, I focused on accessibility by selecting a harmonious color palette that enhances usability. I aimed for a clean and intuitive layout, ensuring a seamless user experience. Additionally, I experimented with Figma’s variables to create dynamic components and established consistent styles for fonts and colors. This approach not only streamlined the design process but also allowed for greater flexibility and coherence throughout the project.</p>
     const hyperlinkSmartShopFigmas = 'https://www.figma.com/file/nNDg490gnQ9mHi3h8QTxMW/Smart-Shopping-App?type=design&node-id=0-1&mode=design&t=ew8bGxr63RBNnnEI-0'
     const hyperlinkSmartShopGitHub = 'https://github.com/the-collab-lab/tcl-73-smart-shopping-list'
     const hyperlinkSmartShopSite = 'https://tcl-73-smart-shopping-list.web.app/'
     const CollabLabSite = 'https://the-collab-lab.codes/'
+    const hyperlinkBeatrixHoneyPrototype = 'https://www.figma.com/proto/4K1sUjgsh0XgZzc8Z02uHI/Beatrix-Ecom-V2?node-id=132-1708&t=T4EQYZP1NzaUrAtY-1'
+    const hyperlinkBeatrixHoneyFigma = 'https://www.figma.com/design/4K1sUjgsh0XgZzc8Z02uHI/Beatrix-Ecom-V2?node-id=279-1267&node-type=canvas&t=3ZWPZu8Ja2uGDlsU-0'
+    const hyperShopSmartPrototype = 'https://www.figma.com/proto/6C8AWLBiCZWSgkBSnppbdW/Shop-Smart?node-id=13-479&t=T4EQYZP1NzaUrAtY-1'
+
     return (
         <Panel className='relative bg-white dark:bg-black'>
             <div id="projects-anchor" className="anchor"></div>
@@ -61,13 +67,29 @@ function Projects(){
 
                     <div className='flex flex-col md:flex-row justify-center'>
                         <Card>
-                            <img alt='smart shop app screenshot' src={SmartShop_screenshot}/>
+                            <img alt='beatrix honey app screenshot' src={BeatrixHoneyThumbnail}/>
+                        </Card>
+                        <Card className='justify-start'>
+                            <Subtitles>Beatrix Honey</Subtitles>
+                            <Info>{paragraph16}</Info>
+                            <Anchor href={hyperlinkBeatrixHoneyPrototype}>View Prototype</Anchor>
+                            <br />
+                            <Anchor href={hyperlinkBeatrixHoneyFigma}>View Wireframes</Anchor>
+                            <br />
+                        </Card>
+                    </div>
+
+                    <div className='flex flex-col md:flex-row justify-center'>
+                        <Card>
+                            <img alt='smart shop app screenshot' src={ShopSmartThumbnail}/>
                         </Card>
                         <Card className='justify-start'>
                             <Subtitles>Smart Shop - Collab Lab</Subtitles>
                             <Info>{paragraph13}</Info>
                             <Info>{paragraph14}</Info>
                             <Info>{paragraph15}</Info>
+                            <Anchor href={hyperShopSmartPrototype}>View Prototype</Anchor>
+                            <br />
                             <Anchor href={hyperlinkSmartShopFigmas}>View Wireframes</Anchor>
                             <br />
                             <Anchor href={hyperlinkSmartShopGitHub}>View GitHub</Anchor>
